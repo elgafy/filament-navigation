@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "elgafy\\FilamentNavigation\\FilamentNavigationServiceProvider"
+                "Elgafy\\FilamentNavigation\\FilamentNavigationServiceProvider"
             ]
         }
     },
