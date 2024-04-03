@@ -1,12 +1,12 @@
 {
-    "name": "ryangjchandler/filament-navigation",
+    "name": "elgafy/filament-navigation",
     "description": "Build structured navigation menus in Filament.",
     "keywords": [
-        "ryangjchandler",
+        "elgafy",
         "laravel",
         "filament-navigation"
     ],
-    "homepage": "https://github.com/ryangjchandler/filament-navigation",
+    "homepage": "https://github.com/elgafy/filament-navigation",
     "license": "MIT",
     "authors": [
         {
@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RyanChandler\\FilamentNavigation\\FilamentNavigationServiceProvider"
+                "elgafy\\FilamentNavigation\\FilamentNavigationServiceProvider"
             ]
         }
     },
