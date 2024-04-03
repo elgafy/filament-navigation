@@ -1,6 +1,6 @@
 preset: package
 
-namespace: RyanChandler\FilamentNavigation
+namespace: Elgafy\FilamentNavigation
 user-auth-provider: App\User
 
 paths:
@@ -12,16 +12,16 @@ factory:
 
 migration:
   path: database/migrations
-  prefix: ''
+  prefix: ""
 
 console:
-  namespace: RyanChandler\FilamentNavigation\Console
+  namespace: Elgafy\FilamentNavigation\Console
 
 model:
-  namespace: RyanChandler\FilamentNavigation
+  namespace: Elgafy\FilamentNavigation
 
 provider:
-  namespace: RyanChandler\FilamentNavigation\Providers
+  namespace: Elgafy\FilamentNavigation\Providers
 
 testing:
-  namespace: RyanChandler\FilamentNavigation\Tests
+  namespace: Elgafy\FilamentNavigation\Tests

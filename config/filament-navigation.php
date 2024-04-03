@@ -1,8 +1,8 @@
 <?php
-// config for RyanChandler/FilamentNavigation
+// config for Elgafy/FilamentNavigation
 return [
 
-    'navigation_model' => \RyanChandler\FilamentNavigation\Models\Navigation::class,
+    'navigation_model' => \Elgafy\FilamentNavigation\Models\Navigation::class,
 
-    'navigation_resource' => \RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource::class,
+    'navigation_resource' => \Elgafy\FilamentNavigation\Filament\Resources\NavigationResource::class,
 ];

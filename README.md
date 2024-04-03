@@ -32,7 +32,7 @@ php artisan filament:assets
 You first need to register the plugin with Filament. This can be done inside of your `PanelProvider`, e.g. `AdminPanelProvider`.
 
 ```php
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Elgafy\FilamentNavigation\FilamentNavigation;
 
 return $panel
     ->plugin(FilamentNavigation::make());
@@ -53,11 +53,11 @@ Items are stored inside of a JSON column called `items`. This is a recursive dat
         "type": "external-link",
         "data": {
             "url": "/",
-            "target": "_blank",
+            "target": "_blank"
         },
         "children": [
             // ...
-        ],
+        ]
     }
 ]
 ```
@@ -82,10 +82,10 @@ The recursive structure makes it really simple to render nested menus / dropdown
 
 ### Retrieving a navigation object
 
-To retrieve a navigation object, provide the handle to the `RyanChandler\FilamentNavigation\Models\Navigation::fromHandle()` method.
+To retrieve a navigation object, provide the handle to the `Elgafy\FilamentNavigation\Models\Navigation::fromHandle()` method.
 
 ```php
-use RyanChandler\FilamentNavigation\Models\Navigation;
+use Elgafy\FilamentNavigation\Models\Navigation;
 
 $menu = Navigation::fromHandle('main-menu');
 ```
@@ -132,7 +132,7 @@ return $panel
 This plugin also provides a custom Filament field that can be used to search and select a navigation menu inside other forms and resources.
 
 ```php
-use RyanChandler\FilamentNavigation\Filament\Fields\NavigationSelect;
+use Elgafy\FilamentNavigation\Filament\Fields\NavigationSelect;
 
 ->schema([
     NavigationSelect::make('navigation_id'),
@@ -179,8 +179,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Ryan Chandler](https://github.com/ryangjchandler)
-- [All Contributors](../../contributors)
+-   [Ryan Chandler](https://github.com/ryangjchandler)
+-   [All Contributors](../../contributors)
 
 ## License
 
